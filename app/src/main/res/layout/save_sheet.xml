@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/save_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <Button
+        android:id="@+id/savePNG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_png"
+        android:drawablePadding="40dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/text_for_btn_save_png"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/saveJPG80"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/savePNG"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_jpg"
+        android:drawablePadding="40dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="@string/text_for_btn_save_jpg80"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/saveJPG90"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveJPG80"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_jpg"
+        android:drawablePadding="40dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="@string/text_for_btn_save_jpg90"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/saveJPG100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveJPG90"
+        android:layout_marginBottom="56dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/ic_jpg"
+        android:drawablePadding="40dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="@string/text_for_btn_save_jpg100"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
